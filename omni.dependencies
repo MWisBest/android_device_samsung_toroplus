@@ -1,10 +1,17 @@
 [
- {
-   "repository": "android_kernel_samsung_tuna",
-   "target_path": "kernel/samsung/tuna"
- },
- {
-   "repository": "android_device_samsung_tuna",
-   "target_path": "device/samsung/tuna"
- }
+    {
+        "repository": "android_device_samsung_tuna",
+        "target_path": "device/samsung/tuna",
+        "revision": "omni-4.4-pvr"
+    },
+    {
+        "repository": "android_kernel_samsung_tuna",
+        "target_path": "kernel/samsung/tuna",
+        "revision": "omni-4.4-pvr"
+    },
+    {
+        "repository": "proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "revision": "omni-4.4-pvr"
+    }
 ]

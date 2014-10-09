@@ -33,10 +33,10 @@ PRODUCT_DEVICE := toroplus
 PRODUCT_NAME := omni_toroplus
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Galaxy Nexus
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MANUFACTURER := Samsung
 
 #Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-     PRODUCT_NAME=mysidspr \
-     BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.3/JWR67B/L700GJ04:user/release-keys" \
-     PRIVATE_BUILD_DESC="mysidspr-user 4.3 JWR67B L700GJ04 release-keys"
+	PRODUCT_NAME=mysidspr \
+	BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.3/JWR67B/L700GJ04:user/release-keys" \
+	PRIVATE_BUILD_DESC="mysidspr-user 4.3 JWR67B L700GJ04 release-keys"
